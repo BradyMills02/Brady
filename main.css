@@ -3,6 +3,7 @@
 }
 html {
     display:grid;
+    background: #0033A9;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -12,6 +13,27 @@ html {
 body {
     width: 100%;
     height: 100%;
+}
+.tabs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    padding: 1%;
+}
+.nav-item a {
+    font-size: 4.5vw;
+    background-color: #441D88;
+    color: #4ACBA4;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.nav-item a:hover {
+    padding: 2%;
+    background-color: #1CCAD8;
+}
+.nav-item .active {
+    background-color: #15F6CD;
+    color: #441D88;
 }
 .align-center {
     display: flex;
@@ -25,6 +47,9 @@ body {
     font-size: 3vw;
     padding: 1% 5%;
     text-align: center;
-    background-color: rgba(50, 56, 61, 1);
-    color: white;
+    background-color: #662ACE;
+    color: #4ACBA4;
+}
+.header ul {
+    list-style: none;
 }
